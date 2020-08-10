@@ -4,4 +4,10 @@ class Shoe
   end
   
   attr_reader :brand 
+  attr_accessor :color, :size, :material, :condition 
+  
+  def cobble 
+    puts "The shoe has been repaired"
+  end
+  
 end
